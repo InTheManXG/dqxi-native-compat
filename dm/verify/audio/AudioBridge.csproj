@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>12.0</LangVersion>
+    <PublishAot>true</PublishAot>
+    <NativeLib>Shared</NativeLib>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <Target Name="RequireAudioSource" BeforeTargets="PrepareForBuild">
+    <Error Condition="!Exists('$(AudioSource)/Ryujinx.Audio/Ryujinx.Audio.csproj')" Text="Set AudioSource to the pinned source checkout's src directory." />
+  </Target>
+  <ItemGroup>
+    <Compile Include="Bridge.cs" />
+    <Compile Include="$(AudioSource)/Ryujinx.Audio/**/*.cs" Exclude="$(AudioSource)/Ryujinx.Audio/**/obj/**;$(AudioSource)/Ryujinx.Audio/**/bin/**" />
+    <Compile Include="$(AudioSource)/Ryujinx.Memory/IRefCounted.cs;$(AudioSource)/Ryujinx.Memory/IVirtualMemoryManager.cs;$(AudioSource)/Ryujinx.Memory/MemoryMapFlags.cs;$(AudioSource)/Ryujinx.Memory/MemoryPermission.cs;$(AudioSource)/Ryujinx.Memory/NativeMemoryManager.cs;$(AudioSource)/Ryujinx.Memory/WritableRegion.cs;$(AudioSource)/Ryujinx.Memory/IWritableBlock.cs;$(AudioSource)/Ryujinx.Memory/Range/MemoryRange.cs;$(AudioSource)/Ryujinx.Memory/Range/HostMemoryRange.cs" />
+    <ProjectReference Include="../../third_party/ryujinx/src/Ryujinx.Common/Ryujinx.Common.csproj" />
+  </ItemGroup>
+</Project>

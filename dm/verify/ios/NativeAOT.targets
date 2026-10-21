@@ -1,0 +1,8 @@
+<Project>
+  <!-- 当前 SDK 默认列表未开放 iOS；使用其真实 iOS NativeAOT runtime，不替换为 macOS 运行库。 -->
+  <ItemGroup>
+    <KnownILCompilerPack Update="Microsoft.DotNet.ILCompiler">
+      <ILCompilerRuntimeIdentifiers>%(ILCompilerRuntimeIdentifiers);ios-arm64;iossimulator-arm64</ILCompilerRuntimeIdentifiers>
+    </KnownILCompilerPack>
+  </ItemGroup>
+</Project>

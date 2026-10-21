@@ -1,0 +1,2738 @@
+{
+  "upstream": "https://github.com/jhaizhou-ops/d2r-mobile",
+  "development_snapshot": "ed097b488a1dbf6eba4c4f6f251f0133ab07045e",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "5811600bb8fc4522d3310e8e0e637a1bb14b7c64412f8cfc6234872eb53129b9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/hle_nv.c",
+      "sha256": "90257d1f4f6d5c552658d4a0c4c33eed0fbe85b59b89df110ed09d40fc723d2f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/hle_vi.c",
+      "sha256": "c09937b133d11ea50db11b8be2eddfadef0522125289ab9a1f5b85484bbffa2d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/dmsh_chain.h",
+      "sha256": "bddbe6d40b5c3a3a58e0e99b175798349388243dbacd45ab5fadc30d318c63f3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/hle_nvn.c",
+      "sha256": "ef4a11ef4c718338ff0594bfa6570ee706c5ed2d3ba0b74128e31dcabd9ce5f3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/include/nvn.h",
+      "sha256": "4c2f96bd866dc914b43c7a2e3169d395473d91785946d76fa8ede6c56bca6091",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_count.h",
+      "sha256": "bf9139519e016e6bf177a51ab012864c87068395cd73f090a1f9b5f46a564ed6",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_cover.h",
+      "sha256": "1a69dd6ac3a5fa465b048f4b97733fd408ef3aa2921896f016417391c8b4e862",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_dirty.c",
+      "sha256": "c4d0e012b44f53181daab73407f5b6f1be9d4f910f9a7493b87626484a2ed2cc",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_dirty.h",
+      "sha256": "91dd756a92b441317af039563f2d9ae37272198382fda9e0b70d73da82ac407a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_entry.S",
+      "sha256": "950360254152f5338c1eb6bf065fedc1dd4b1c91e33032648a046f630c3c001b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_hmap.h",
+      "sha256": "ef7797bd44d9cc3e47010c9913dd3e1972e64c206ddd05f8beeecb643784c55e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_mtl.h",
+      "sha256": "ef767e6239fd54083cead5cba0f58425b476e951f4c846b15a0c98d7f2e73107",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_mtl.m",
+      "sha256": "610851ef93f303f3b2ee8c1e3fca8c1ea6e34264f8e29d2ed302359b2834f295",
+      "modified_for_export": true
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_obj.h",
+      "sha256": "62563e02657af1e756383dbdc7bd96ef4ca3cb4f232d638584e4297d57870852",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_pace.h",
+      "sha256": "7e138b32850e7fa44f72a1df3466c2c3c1d17aecb734bfd7d7ffef8896cd66a1",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_protos.h",
+      "sha256": "547b6c48d9424600bb16686767b9965427fff233de04b7eb4ffc74a9266cfa76",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_pso_skey.h",
+      "sha256": "17a07f06bf8904803a28b062118cbb8f3ba45325a4e462b60cd80375f5efd2d5",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_refl.h",
+      "sha256": "fdc1444521057e5f3a7bfc517cdd270d3c8236cdc15982d39078458d90e4f115",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_refl.m",
+      "sha256": "9ee055721e662488033f16253db92d31d29d256c8d9e59de2fbe885906a3b8c7",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_rtex.inc",
+      "sha256": "86316c2780bbd011997a6ec78016659c234435afe0a65dd990cd245fd274b2f2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_tex.c",
+      "sha256": "b51504316d5ad6bed4872dc3239a6221f24748f0cb1a6fdb269bf5ba87591fc7",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_tex.h",
+      "sha256": "980bd97d8f85dd9416d8de529c8f3ca1f682cd5051131e19cd0fae20306121e8",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/nvn_thunks.S",
+      "sha256": "9796bc8a116b067892f315114696fb84edecf2c10eef3e3dfaf4dcd8fbfb2d1f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/nvn/rt_range_check.inc",
+      "sha256": "5ea5738eac7ef458bf08783bb751077f43cf8382492503327d564cafb20ff580",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/tex/nvn_bcdec.c",
+      "sha256": "6760286c7d5ff3a38aeceee70155d86945ccdd15811a36e23c2f26fabbdb1d00",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/tex/nvn_bcdec.h",
+      "sha256": "e83efd39966eeae2d6b34de5b916b25f674bee7d1f5c4b7abd50d47b72e0c5aa",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/tex/nvn_deswizzle.c",
+      "sha256": "989859a8c0112ca430d4788dbe428efac6687e195a8675589a171dc8421d3b4d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/tex/nvn_deswizzle.h",
+      "sha256": "8760c6b3327088cb51c87df7d71845c97f9b866414437a0bc41498b0746a431a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/tex/nvn_deswizzle_gpu.h",
+      "sha256": "c7d80bd42df2f55fa09890bf52d610a5b6eec0ec785708636e87d70a3f6559ac",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/tex/nvn_deswizzle_gpu.m",
+      "sha256": "c1de5d71322eb62be8894ff67e029035f5992527501caa8e6f90c68406f11abd",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/tex/nvn_fmt_mtl.c",
+      "sha256": "18ee829ebdc60a0cacbca318969038218c3b7ba51ab1903e8d30ed113bd96f1f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/tex/nvn_fmt_mtl.h",
+      "sha256": "319cde963160339299bbab763f18dbe73847ae616d9c4fd324387e48982dd944",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/tex/tests/t_fmt_mtl.m",
+      "sha256": "ca6bf311ecc669ff7bfd2f9ef45bfc294deb7385d6ba7effdadd3d69db5c71a3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/gfx/tex/tests/t_tex.c",
+      "sha256": "fba4a9c74d388b759f5f064575d0167340dc42f66a49390686b28f819b744d11",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/crash.c",
+      "sha256": "c3cf09eb237b26bbda24a0f173b7fcf71ffc8574dff4793e661233c2c987422d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm.h",
+      "sha256": "761ce065ada34a0c56c9293c9d9a18037c7b3cc00146805a458a1f03c74dcafe",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_actions.h",
+      "sha256": "0d2bb52e56f028d68f0525eb707773bd6a9b2bce39491fe0d76613990722fbaf",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_bossrush.h",
+      "sha256": "586b48adc256ae6633f4b05b4cefe3541fe8814f7d8cbb94e4b2a83cd7aeda15",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_cursor.h",
+      "sha256": "69b756b88001240c63392c7d21e088e4f7b30291d66e63e204fbf09e84fc8d16",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_cursor_item.h",
+      "sha256": "6d11a7da72231f6dad4c23b4b15723040854233871083754f7544507c26d51cd",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_custom.h",
+      "sha256": "2bacfd3ff6f4ce3dbb34318ece9f2387d41757fc1d9edb386bf358fdc7ff279c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_derived_rt.h",
+      "sha256": "d10d7124982623f312eb63c91239e5e573f915aa6a89e478cf3ec19ff615b2cc",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_doorspot.h",
+      "sha256": "4a76849ec53c264fc08afa85a62051e7a95de20f9098974d8324b7970cc99a29",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_elysium.h",
+      "sha256": "077e06a791b7619576b34ecd3d06d3567ec5ab324ed018e22f435d1eb9600024",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_hud.h",
+      "sha256": "883478fa61afe73d94875358d315116c42bc579f575cdf879f9c98d64e9c3ee3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_i18n.h",
+      "sha256": "3ab24252a89d867533eb4fcf0424534b0037495f41b47cc8c1ed49aa963d764e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_i18n_tab.h",
+      "sha256": "64f63a74fc8fbb46f16ee4dcbcbb4e92d172eb805154b4121108c4f135b6d7e9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_input.h",
+      "sha256": "d484d8aacf0c166a45a337172e2e91532fa68d97063c599d0a36e8fc05ddc9d2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_mode_items.h",
+      "sha256": "074c62c22d8e80c5f9effcd1f761540d3e121759ca9e5c357bd3644cd2dc5b64",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_modetx.h",
+      "sha256": "04c3c12dd89223fd875b8b4aa952e564953ef183138bd9220447282b2fd60857",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_padmap.h",
+      "sha256": "bb4285c5322e3ab466b65adeb137ecda42bae69a5f66cc3a4c1004714297736a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_rift.h",
+      "sha256": "76b50507ba46c4d2664c59b4ebf2d6c2d1d0bf7c8fd15906db01509258f79df9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_rwlv_core.h",
+      "sha256": "9b08f4bb11bad513a0654d0bec67a354a6214bd327acc2fdad40a089fb469875",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_textbox_core.h",
+      "sha256": "b9d9ba224b11e775e9d2acaffdf68ccd60a18a4ff99a3a19621ced628302648f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_uiscreen.h",
+      "sha256": "ca4b9dcb47c8f4eec3f6e691252c29283286fa60e25e200ef0b6fcfaacd4ee0b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_unit.h",
+      "sha256": "dee19d9e77f71fe9d16fe9004c52553664f58bde17e7e687e846f141bfbfbbb6",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_widget.h",
+      "sha256": "636ec57408488a2211e895eec26d77bdc304c9307a87c623ef53f0cc0d891d25",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/dm_world.h",
+      "sha256": "2d77d687ef91b55601408e746e356ca2c4dcf34d696b9d4b9ee3f74dfdc22833",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/entry.S",
+      "sha256": "68f225eab1c33ab89932d2924351eb05a9dd188e4385c1f5ef99ce8f3bfaf9af",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/front.h",
+      "sha256": "1a01a9c72e9d105f2472ee40922b01fd64a5f9f0ffafc3662e891eb8c1b8e891",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/hle.h",
+      "sha256": "abda866fa1a288bb44eb49fdd840f57a7851346c7ecd025c46c884b25d46c1ef",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/hle_thread.c",
+      "sha256": "1c6b96f54b9b29d15f32cae161ce8f984fdfab791befef2d45b4c0173553159c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/loader.c",
+      "sha256": "a43540035a707583fb9870d4534223186e5953d37f5a12d9d3aab7c60bd4716b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/romfs_validate.h",
+      "sha256": "095da4ad54f07c09fa035d07a889748ae4153451b8a51af9a12f189dc7b766fd",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/thread.c",
+      "sha256": "3d6479added70ac8b6edb09b1368129e77c0424398c4d73d1b11870a5157317b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/touch_mac.h",
+      "sha256": "2101a4bfed822a9dfd2f285600455e92168f6853d0b45207b8e7755ad1142bcb",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/README.md",
+      "sha256": "f2d002f30efc433d5a0bf3f34864e41146d24c6e18eefc5f221b03cb1ea9591a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/README.zh-CN.md",
+      "sha256": "83ad59ed67c1a21925945bafffa3c3b750ce17eddf93b7ad5ab977b87f611aae",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/bcdec/LICENSE",
+      "sha256": "2414c782587f6e96661cb0d19d752432ddecfcc1a221b4cb12bc2253a54dc5ac",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/bcdec/README.md",
+      "sha256": "b4d5a194d96dd642799ec2564b52a52da77010debfd3306d24880e2791ce6c20",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/bcdec/bcdec.h",
+      "sha256": "134520764d96f70a27db814173616c89ad85db95fbd3328417c7a8c77e7ca189",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/flip/FLIP.h",
+      "sha256": "412b118db343a3a0d030104f17f46c1e3edc7455d2b83a7398a42e25befed104",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/flip/LICENSE",
+      "sha256": "13b955078ffb4a3215757038ab2e5fcf0cc66349d0990faec9adba8ad034e578",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/flip/Makefile",
+      "sha256": "1f6758d76d5ef9ef4afde25977650f8b404ecc9f9bba1ae57cac0afeafee3b0b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/flip/tool/FLIP-tool.cpp",
+      "sha256": "f792ef2fc4e698e5bb0025e35c9ffb70e59f7247fbc58945b42a26c63c8cc524",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/flip/tool/FLIPToolHelpers.h",
+      "sha256": "a0ab004315a07b730050eba0115dce41462fc04c4bfabb731cbf3256e2a2f12b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/flip/tool/commandline.h",
+      "sha256": "c51f9b847b9abb9976d2022533e62c93f728e034d64bccd84ea1edf85bb9f2f7",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/flip/tool/filename.h",
+      "sha256": "1282244107416dc1b68e23b089e9c090675fb33fce9b0f80010e085c202a14e5",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/flip/tool/imagehelpers.h",
+      "sha256": "dda6901c31f75107755094b40b1181e4ae119d37cbb0693ef3c89233aad26a47",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/flip/tool/pooling.h",
+      "sha256": "047e0ec215e60d405453f962f154f26002406133110aecb2b3ad4cf418141e3b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/flip/tool/stb_image.h",
+      "sha256": "beef2cbf861508e6a74e7cfce2410f2258c1b829c3a1d81b052f71896ff93b93",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/flip/tool/stb_image_write.h",
+      "sha256": "1911008e6cc38a8986fc49716bc26b87b9dfeea598baa4cfe912f53da993187a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/flip/tool/tinyexr.h",
+      "sha256": "d1e74cebb6287c663d673bc56a09f9be727a1d1483a38c3202419e8e41efef22",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/COPYING",
+      "sha256": "4ad69099cb4374836fd27583d9991e2838cd86b6e4666ab26b2d32582c91e73a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/README.md",
+      "sha256": "176b573d2dcf42c4e7404946a54f4d7cefdd982bc075e7c95ac234069fee40ee",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/VERSION.md",
+      "sha256": "619a810cd66b5044b4b2a40a5605367ce2e94ceb26d449ad6ad792362f6093c8",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/common_defs.h",
+      "sha256": "fe0dfdb4dadf413fcac6d011f678e644127f2361fbf46181bafb4f6c4265814c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/adler32.c",
+      "sha256": "63099826db3ddf84c15bfba30940f9689917185df8c30ff27a2bc2b7cb6a19f2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/arm/adler32_impl.h",
+      "sha256": "b7e43d7b91db98d774243cf29ee41941edf93e71b5a3f5cc3ede34d8b70a93d9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/arm/cpu_features.c",
+      "sha256": "ab7fb53d8b5b991200e986f20b66f71549a28bbe54b904f37ef81a4696780048",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/arm/cpu_features.h",
+      "sha256": "0cff5c0110021dc8b18511e328f913f1bad21f31ad927497d1f428db4e6ed239",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/arm/crc32_impl.h",
+      "sha256": "5a24f5087e665b30516f83c2e09a58ed01dab867895a6cefc2f1c833d12482d3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/arm/crc32_pmull_helpers.h",
+      "sha256": "e469001ad29607cab992ae29c9eaac331427d6b103d11d58d37158b3aa0be95c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/arm/crc32_pmull_wide.h",
+      "sha256": "c53a58d1e3dc5e75d23c1338fed6cc431ee6fbdfcd4ac94f576579258ac34a88",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/arm/matchfinder_impl.h",
+      "sha256": "11cd6a9c47d2dadf746f7a944c72c672b40bc83b2ffb43356e0b7ced6b6b8038",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/bt_matchfinder.h",
+      "sha256": "6e3834eb2de5c759479bbdab9471f3569f8aa2bcbba81f4f917c84ebff0050ad",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/cpu_features_common.h",
+      "sha256": "f4eb0800558e9116dd14446ccfb9b1896f970aec6de42c18366a29bde73fd0da",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/crc32.c",
+      "sha256": "91d0155e5e879527f9a5dbc53f01ea2400fbb80a75b9dda71d867cdd53d18cca",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/crc32_multipliers.h",
+      "sha256": "4685f86b4035627d81c802627d8148ac17861ede15d2af741f06c66022a4c4d0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/crc32_tables.h",
+      "sha256": "2aa0c8590795ab7d2722bdcd1be816d4808b6e7d301b52bd5ed4c5c1c72b996e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/decompress_template.h",
+      "sha256": "ade3034c1d5c840cb31bd9738a015be804862a8dfce03c14ac2f5b3a826792b8",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/deflate_compress.c",
+      "sha256": "a46dae12f2020b68d20c965ae43f9710e3e792bf77f3ca4611582f8d8d0c9541",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/deflate_compress.h",
+      "sha256": "cd3a74bb22e5358e9571184294b1f3600e2a72bde483485eda242a92bb7124b0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/deflate_constants.h",
+      "sha256": "72ea6e5f0abe53e781203e3f383603a765a768b860a09b3356be36bfd87c8af3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/deflate_decompress.c",
+      "sha256": "f4299b3a688b5768c3a8790339e47e02a6e6247d3675b0fafe412a1fc9bd995f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/gzip_compress.c",
+      "sha256": "b92016cf6a5ce34b48e6950d7de68923d2e5e0475bbe4c71297360818deafb08",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/gzip_constants.h",
+      "sha256": "135661faa24f45407517f9f73380cf89890613aeba27b3a4f5cfba0e74e85ae0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/gzip_decompress.c",
+      "sha256": "f853b8802a1b7e79f6626f0a2c104d005958288c2a37ea24df758ee54f714304",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/hc_matchfinder.h",
+      "sha256": "b37e8c48957f8d7773a847a1d5a5fe5343b85e0f9c43ddce2e55eb24d58a1704",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/ht_matchfinder.h",
+      "sha256": "a682872f0d05919e13d53b49df42039062c177c65d19095da958162425883c0c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/lib_common.h",
+      "sha256": "e7aa1f2750434e1019ffabda577dab0fdf5b95f010f6f20aa7e21323b3bcceea",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/matchfinder_common.h",
+      "sha256": "47199708cd30c44772fbaed3da4b34533541d6f33ffa7279651a137887756ab3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/riscv/matchfinder_impl.h",
+      "sha256": "e487458fdc957ba59f9f6d27d6f8997900446df08880018b00d5535a7fc5edc2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/utils.c",
+      "sha256": "3d4c9f6d488610d4d9ff314b2dc783e24079325b78af13d3ee37b18fcc0b0d8a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/x86/adler32_impl.h",
+      "sha256": "952c36cd1518d2c0d52d2c1b7ed26c7c32621095f0aaf848bfa0ef42b8299b5c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/x86/adler32_template.h",
+      "sha256": "8e5d14f8e596bd54bea188b6ff5c96649329beeebd9acdd59307a5202206d11e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/x86/cpu_features.c",
+      "sha256": "9ed976e4c66478e8b6a8856424816147a971f75894c66f03274ab8119074dde0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/x86/cpu_features.h",
+      "sha256": "1fa71a4fdf117120a08f3f46990b2cee5d3cbef0610d77fb40d19a0e5387807b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/x86/crc32_impl.h",
+      "sha256": "ec93c97a3197459ea9d6fa4cb6d39ceeb5f5dd8f649a5f6edce0dccf6947c34c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/x86/crc32_pclmul_template.h",
+      "sha256": "f0aa09cf49fd77e1f95c360f8edddd3a17725b8ea92f92c70efe50a182f51d72",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/x86/decompress_impl.h",
+      "sha256": "81ab9fd7d4723fdc7ae81dca82f817bcecb7baf5bdfffde0ccfbba70569ac2f1",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/x86/matchfinder_impl.h",
+      "sha256": "3322b5195e11dc08575ea26431d8d16514cb53bf25e6a9b6935b6cec7a678a27",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/zlib_compress.c",
+      "sha256": "b5ca0c9af0346fd656871441b08b73b3512601ceec8edc6cc81e8a93929081d4",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/zlib_constants.h",
+      "sha256": "562e16b83ac33ac6d351cdfdf1962750576080d65c22ab66cad0aaa33695bebb",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/lib/zlib_decompress.c",
+      "sha256": "704a57fb91c36c1c88b04a3482694de08c794ca0cb3904ac247a206802aa6ee0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/libdeflate/libdeflate.h",
+      "sha256": "1bb50a3ff8c6980c1031c0e9bb324cf99df51379fdca77a358644cca841765cc",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/.gitignore",
+      "sha256": "6c5082c7e6de3e350189c67a1aacf757485ecc26e0a3cf96683528565f3e5f12",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/Directory.Build.props",
+      "sha256": "8d690d6c3b861d7e352359d2ad9f2f0328051d0d1ce80ddb2928b278b7628d27",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/Directory.Packages.props",
+      "sha256": "7e20a70653c83da80b2ccadeef477933aaccb7e0fd5ffe98436284c9bbf7a9f8",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/LICENSE.txt",
+      "sha256": "781bbdf040b7d0286c47cca6bffdb9148dfe751c0c9cabdf1a1752412a2e56b4",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/README.md",
+      "sha256": "0bfa2e870d67627060e513d20e877dede9a257293c62ef910e869ae3e1e2ecaa",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/AsyncWorkQueue.cs",
+      "sha256": "6f5c2a136bb4239c55c42e60c1a35590035bee1fd00ad464162c2d3046874ca6",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Collections/BitMap.cs",
+      "sha256": "ed064c46a88b7c6cba2745f6834b2902948f3ee9e83985e3b4c9425b8cf72933",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Collections/IntervalTree.cs",
+      "sha256": "ce0acc84e8f7fccfab31e72525e47155038b1d0e051e0eb1f343de6ed4e47c67",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Collections/IntrusiveRedBlackTree.cs",
+      "sha256": "39842601969d07569e84cf36a8d636e771b67d64d463b1b752225b9d1375902b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Collections/IntrusiveRedBlackTreeImpl.cs",
+      "sha256": "f6aafa37bef615541e3395ba7ca3875351a32bb7c311b3bef2da602a316fd8d0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Collections/IntrusiveRedBlackTreeNode.cs",
+      "sha256": "6ec5648053ca09030f982b62cfbcfe6640a3feac95a4db12b6b36e7e62a6f257",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Collections/TreeDictionary.cs",
+      "sha256": "50ba81ebd1bd22e399dc282dbc0cbf246456b2c6923f3b7dcdc4ec236098877c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/AntiAliasing.cs",
+      "sha256": "1269510fe2dc7af695c60c68712016beb26102603147d69b19cc75628f1a11bd",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/AppDataManager.cs",
+      "sha256": "bffe2a3055f10dd03d9242b3cdbb9db45efc8fb3baf97789793cc3aca9458ed0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/AspectRatioExtensions.cs",
+      "sha256": "c74e7f30abf2369daa9369af5914b8561cc37f87314bd935e40fa94fa7b5b9a6",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/BackendThreading.cs",
+      "sha256": "a3a1afc5e45b57342abcdc9af9dfe8300e3f3750ada574bd6321781c91c6e8c3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/DirtyHack.cs",
+      "sha256": "56e60ec13a9d7dde0db562aecfd16eee20dd74a99b65c4d982a5a66f188e4d5f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/DownloadableContentContainer.cs",
+      "sha256": "64ab31b9c144b1a9c806943907ba6c7b9d22dcc746c1f538011ec40a70411e71",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/DownloadableContentJsonSerializerContext.cs",
+      "sha256": "854fea3b7381220b424b55105d4b80b404266c65d80e807492701739c63bf065",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/DownloadableContentNca.cs",
+      "sha256": "470aafa4834e75689df2bc7375dfbf3dffd227591e4e468d6a2d464434cc49e4",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/GraphicsBackend.cs",
+      "sha256": "18c148feeed0b738c356fca546ba24860568287c808a37dc3a0ae6334dd86363",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/GraphicsDebugLevel.cs",
+      "sha256": "176ea2ef9ac1cc42df63832af33b58f2c456faa1b6e6a4a85bbeae7186d52eb9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/AssignedInputDevice.cs",
+      "sha256": "cd949bd86b8ec1669306e193d3ccbb8bbccf997ee92a651ed19121c00a51b3e7",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/AssignedInputDeviceType.cs",
+      "sha256": "0cca1c97f12e333bd94fe7fa36102f3e8e6e16b94514e13755eba243a9b5ef76",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Controller/GamepadInputId.cs",
+      "sha256": "32a32c2f791c823cd1f3f24c12904cdfadbdccba1081f269660569da01dc309f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Controller/GenericControllerInputConfig.cs",
+      "sha256": "1596a61672af594afefbfd02b5a0d9286823b1d6320f7b7fc51efa9be4906c34",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Controller/JoyconConfigControllerStick.cs",
+      "sha256": "ec1cc68d380489bcb1e45f1fd7292ba76200b737ba06f88babcb4db6bd4f1e3f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Controller/LedConfigController.cs",
+      "sha256": "d5ef3ec97035e83b7a581736aab32f78068a554f714c746a91c793ca6344941a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Controller/Motion/CemuHookMotionConfigController.cs",
+      "sha256": "92041bc34d3e41a370c0a2b54ca9b1233cdc20f6c26589a2833ba21fc0a526c8",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Controller/Motion/JsonMotionConfigControllerConverter.cs",
+      "sha256": "33da8e0bf41a49edc7b3c30ba045fdf03cb430f667e76d3a036d27786c9114b1",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Controller/Motion/MotionConfigController.cs",
+      "sha256": "379b457723c16bff44ecc2ad630cacd95165e3300a123160dfb9f6e1979773af",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Controller/Motion/MotionConfigJsonSerializerContext.cs",
+      "sha256": "c9635967a50db32ae73d5ed936bf564555d45a012e31c678d4cf9dbc5379e223",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Controller/Motion/MotionInputBackendType.cs",
+      "sha256": "863a9f923fbbc105e227f544a38d2bc827bdd04dcc0a77c3bd79e7f7d8a8f152",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Controller/Motion/StandardMotionConfigController.cs",
+      "sha256": "b9da8ddea7725c8ca78b58013dbaaac410a67926b4351ea1d35efadfc68ac303",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Controller/RumbleConfigController.cs",
+      "sha256": "a2b5a0b89c152b6e9283317701fd0cdfacb88938e99e3016b6e4df74b5cb148e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Controller/StandardControllerInputConfig.cs",
+      "sha256": "ff6055179f63c83394927a4185501016fc32a55d6139b1265fe9c1d804752a0e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Controller/StickInputId.cs",
+      "sha256": "b24abd8d1aac60dad70bb9aba523779109857ad70c52501128ecf0a7eccb0278",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/ControllerType.cs",
+      "sha256": "c4d7d7f10b17fc9f1302e61719d8bdca0bf71a092105ac8f9a0cd28f3f073dc9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/GenericInputConfigurationCommon.cs",
+      "sha256": "086c8ae5c9755980b6e8f98866b6eda014f71bee9b42490e4de5ed894e612a23",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/InputBackendType.cs",
+      "sha256": "d9f075905a6f70d3e6f7bbff03896f28371ec0b3fc0eb024d0eeca1972776484",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/InputConfig.cs",
+      "sha256": "9ea6ab0899b2816cfbbd3ee418e9644103dd45fc06f4ddf92157de8deae5b28a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/InputConfigJsonSerializerContext.cs",
+      "sha256": "0c5ccde52bdbd09dd05c1c39491960a13bd586327062a3cef2a7eba6547ab16d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/JsonInputConfigConverter.cs",
+      "sha256": "fa4f0eae5a760d470504a77c00d14876062eaded544daa85dbd1aeb369fe4b41",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Key.cs",
+      "sha256": "2e66c8e8c36984d7f6bc33c4263ec2ea52a596eb0f521137371a7e3b3365210e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Keyboard/GenericKeyboardInputConfig.cs",
+      "sha256": "07ff53cc3a3ee80da8eb79023f82fd8060f0e5446f67991e7a80b3af550bd445",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Keyboard/JoyconConfigKeyboardStick.cs",
+      "sha256": "14a554264527e957a242acbf37ae025deffda79a8dce4489a8d15650b4301464",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/Keyboard/StandardKeyboardInputConfig.cs",
+      "sha256": "d76295773db6d9bff17a574d21632bb3d8b3b3159ef98a657d630241fea5d475",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/KeyboardHotkeys.cs",
+      "sha256": "936e654ed16676599aed3fafb2643b981335fcd1cf67f4d5dd064fe46350f956",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/LeftJoyconCommonConfig.cs",
+      "sha256": "cea9511569f4e7b686fd947de01058eaadeee03d7da90e7167b700239fdef15a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/PhysicalKey.cs",
+      "sha256": "2c4e6ce99e9e8ac9db1d23e2090921f2957985f924fb20e1be1189bb3e3a8a8e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/PlayerIndex.cs",
+      "sha256": "f29dc40ce2f7dca2fde21adc707f2d4afc488c64e1f13577c9c7eacac9c42e8c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/PlayerInputAssignment.cs",
+      "sha256": "74c0de70b9352bcc75566873cefe4f3006b0611a63e2ab56bba50132f63815d1",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/PlayerInputAssignmentHelper.cs",
+      "sha256": "4ef21a810a96c506ad19507805c1cd966c54d9cce88ba1868bf50e8f2457b9cd",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Hid/RightJoyconCommonConfig.cs",
+      "sha256": "c1d60c0bf98414f0ea13b602753bc9566d58dd959d9ccef66a566bd0188b2bd2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/HideCursorMode.cs",
+      "sha256": "cd0cd45befbb365e547b6f744e8611420bbc248a142a34981f28fcd2e5a59351",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/MemoryManagerMode.cs",
+      "sha256": "85355c59313ad5bc69620c463c94bddddb0bfa2db4c4b71a62635f4aa39c0050",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Mod.cs",
+      "sha256": "78dd5d76a05dbe0c3853377ad840891932bfee14a05c98945970b9fc80032972",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/ModMetadata.cs",
+      "sha256": "03db77aa57af1f66e30346b4b3164d425f0609f02919f57e1d4d4491d1ecd90b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/ModMetadataJsonSerializerContext.cs",
+      "sha256": "8d768841f81795f70cb35125a500c0e9e926cd1a1be251fa40b3ad885556f3b3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/Multiplayer/MultiplayerMode.cs",
+      "sha256": "f45954af9b18b91f78257e75c9be1d2512c6a5c5a256df9776a1d31283309fc5",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/ScalingFilter.cs",
+      "sha256": "eb409e223773d437a71ea1be08a797a0dd6bc77cf357e8c85b8882d6fe9faf07",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/TitleUpdateMetadata.cs",
+      "sha256": "4c57282fef1e9ee933b1cbbc96889ad1560da3c6bea90bd244788cdb09b8ec25",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/TitleUpdateMetadataJsonSerializerContext.cs",
+      "sha256": "cf970b17a597054fbac20a186f4d337c2df405b828db81c8c03a813e7f41fa37",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Configuration/VSyncMode.cs",
+      "sha256": "b850c1c49457f66b49da6aadc5a282aa34d4ec2a5afe3796adb3d9df2fc373d4",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Extensions/BinaryReaderExtensions.cs",
+      "sha256": "2ded38bb5fc06ab0b77622a4beeba1054caf6aa2e8465d57a2826fd5c25300bc",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Extensions/BinaryWriterExtensions.cs",
+      "sha256": "4df420b281c6094973c59d2b45477391fd97f1f5e2c04aeb334a88656db98ea2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Extensions/SequenceReaderExtensions.cs",
+      "sha256": "d05379c9d72636ea5725cea8200da94f3d5638c09c0534e30cc3422eb72ed00f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Extensions/StreamExtensions.cs",
+      "sha256": "e0c14ba084d8a2afca2b24297b46d24d3bf25a3c17b030dc1150f4d5f480beb0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/GraphicsDriver/DriverUtilities.cs",
+      "sha256": "c5c510ece04b00ad196a58cc1c49e066b99c0bc9b23c549ce8baee4c723c4447",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/GraphicsDriver/NVAPI/Nvapi.cs",
+      "sha256": "1b40e778d1fbe76400b20c58e36efde455e363675aa5f3e663cc0d978f07c85c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/GraphicsDriver/NVAPI/NvapiUnicodeString.cs",
+      "sha256": "15698de0222b4ac0e5267175c8274fb38d08a6424c3146e5846a6da129c6253e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/GraphicsDriver/NVAPI/NvdrsApplicationV4.cs",
+      "sha256": "a32c41a677fc4fa38c18d48118ce0172caa7890cf0fb6c4663ecec6e4587657b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/GraphicsDriver/NVAPI/NvdrsProfile.cs",
+      "sha256": "beabc1a8f38d8787e9cb01ef112544a642fe3942269734924aa03e2529c510ad",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/GraphicsDriver/NVAPI/NvdrsSetting.cs",
+      "sha256": "e8afaa9c745f14aa766a029441b7eab6d27581cedc0490884275c61195e1f06b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/GraphicsDriver/NVThreadedOptimization.cs",
+      "sha256": "049c6e656f6dfaa1861abbc5715b0f91d009c58d182166df041e5b5edebf93a7",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Hash128.cs",
+      "sha256": "e46cc0330eb526040c107ed0fb01eda4a1fbef2793253fe40527ca22082c4538",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Helpers/ConsoleHelper.cs",
+      "sha256": "9de14ca652250d2f184776667ac3560840cb24565c9e4238da1d593d36ee7910",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Helpers/FileAssociationHelper.cs",
+      "sha256": "e453e481301069666ddc5c24facc7057d8de9f718a1cd8d68c0f6e93566c092f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Helpers/LinuxHelper.cs",
+      "sha256": "e1330d810cee8d4e38c65d6e84664709373dc02a020f3b3253046adf0bf23335",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Helpers/ObjectiveC.cs",
+      "sha256": "4adeaad8682146c470db6143e5fda87bd5490548b3fcb34fde8f81c42ea2f373",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Helpers/OpenHelper.cs",
+      "sha256": "5e34100f43b7bc1ffbe91ad8d5692e56fe0dfc1f3fc017a44976bf0232852035",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Helpers/Patterns.cs",
+      "sha256": "294bd8c05ee37839db06d9bcab0cb3110352d26b771de27885e1310343c5eeb1",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Helpers/RefEvent.cs",
+      "sha256": "f8debda9f45c18bc49ac204e2dbfc208ef0dffda5276bfef3bee57979df17647",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Helpers/RunningPlatform.cs",
+      "sha256": "df73d11543e453dbd301c888d156ac233f7441e01a097f7095c812cc52f78f9c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Logging/Formatters/DefaultLogFormatter.cs",
+      "sha256": "28d253951f5c9c4413b18e90f908219d513e52d99019a7189b1f5657db4b969a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Logging/Formatters/DynamicObjectFormatter.cs",
+      "sha256": "b193b40c8ac6626e8601e896fb26b1cfd5906f9d796078653f68c594006506ce",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Logging/Formatters/ILogFormatter.cs",
+      "sha256": "060d81c1e13dd00709a4aa0a363377e5458010cc4bd4d339992fbb03cb7ef8b8",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Logging/LogClass.cs",
+      "sha256": "bf6bb6167c5cafb112d13b1f58fb721b0eba420bea4cd6bbf11d833344a361df",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Logging/LogEventArgs.cs",
+      "sha256": "a1f704d84ab43770c41edf2896f56744c9e013f49f95b37e8ebfcab3192387c4",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Logging/LogLevel.cs",
+      "sha256": "a347ef132c843fbc40b7f3b2b6de1aad73673fb992a099aecd08a484a473fc0d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Logging/Logger.cs",
+      "sha256": "38a66a846cc81926c6df53b514728751b8fbaa6e136095663576a76adfbdfd94",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Logging/Targets/AsyncLogTargetWrapper.cs",
+      "sha256": "b5d8baa962d3c2c18894051675fb89c04d347046038d4dd85b32323222b821f4",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Logging/Targets/ConsoleLogTarget.cs",
+      "sha256": "aa05d73330938c26acc7def1a89061a5886852ce5ff3c50c9a1806572f5c0f92",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Logging/Targets/FileLogTarget.cs",
+      "sha256": "a3b34fdce23161b977fe96980c104d7ea893025b5fd448f68dd4f48988ecbcb4",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Logging/Targets/ILogTarget.cs",
+      "sha256": "a6795467806d1860516e5a513ca7c72dcc00698fdeae187037bb19ac8dac0b60",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Logging/XCIFileTrimmerLog.cs",
+      "sha256": "7e8f379d9f404e769fccaa855bc59e19bc7bd3aa6f107408e60b2edc37c95ea8",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/ArrayPtr.cs",
+      "sha256": "984bed20635b52b50bc563235aeaa75c774035d8b143cc4d7bcc14c45bf1468d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/Box.cs",
+      "sha256": "de383d0ff321e2d6d0af5e9818971f4ae3d5c6b0ef76c0755ffa88d6bdb0f95b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/IArray.cs",
+      "sha256": "0b4ba835fe89f680b0e4faff63e2f736727647a68a32f37d6ee0b193498c563b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/MemoryOwner.cs",
+      "sha256": "28de9f4232b06c52a836a41f8c3a63c00f4178dcc12a2d5a5e3f53c5d7403054",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/MemoryStreamManager.cs",
+      "sha256": "9570898385eca429b43d038f489467ddc343674b6e343fbc34bc587e77389bab",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/PartialUnmaps/NativeReaderWriterLock.cs",
+      "sha256": "1af4728ae0b92a234ebe1a868b535fce42c5986395423aa82e78bfbb1cbc9d3b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/PartialUnmaps/PartialUnmapHelpers.cs",
+      "sha256": "435f6e2a23674156650ba8111aa72e384907b575c793822c62b3d36dfd270424",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/PartialUnmaps/PartialUnmapState.cs",
+      "sha256": "b0183ba188b438fb83701028f20aa3449dc7afa4deb2a2fcc158d386e589cf08",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/PartialUnmaps/ThreadLocalMap.cs",
+      "sha256": "c178bde480c0e19e867cda63089b12c3767425ad697b3ddb084a00f25a7b2b7d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/Ptr.cs",
+      "sha256": "884c9c585475bf4f8b25099825517433879369e8ead10e74e57447800c0e7bca",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/SpanOwner.cs",
+      "sha256": "04e4c340e3e14d784a9bbdcfc4b351e001ad87df6da1a97df967daebdaa41018",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/SpanReader.cs",
+      "sha256": "dc6e92fb13b48ab92d0f2e15e9f62c64fa25f962800572cf5c50c12b5bb48638",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/SpanWriter.cs",
+      "sha256": "8cc04df39bba1c8ea6915bad9c3315d3c719be979f2219bbd9b5c2a4c0968197",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/StructArrayHelpers.cs",
+      "sha256": "ee9871e0099b206b7306214402b7241cc61d22632e5709708122f581b2d7074a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Memory/StructByteArrayHelpers.cs",
+      "sha256": "1629129716d567cf606233fdefca78d03e83f4d97fa993823913d24457f83d6f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/PerformanceCounter.cs",
+      "sha256": "2352547efbc4637d21758ad70079001e1be4f83c379e2aff458c0a112e4cb55a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Pools/ObjectPool.cs",
+      "sha256": "f3a449f027d1a78831badcc565293763cd4eb51a0f2fe9219778c53f5f2ea4de",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Pools/SharedPools.cs",
+      "sha256": "419adcc9ce0d38b5dd2a854e8eb8bb728768a499adae605bb69151b289d4e88c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Pools/ThreadStaticArray.cs",
+      "sha256": "0e464d12967dcd20eae785d7a5b6e5439aa0b88ee9b5207f278773504b60ada4",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/PreciseSleep/IPreciseSleepEvent.cs",
+      "sha256": "c04ef0310b05cbba344417cfe129c01093a5cd8bf1835d3b9f563e1d9e2189f7",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/PreciseSleep/Nanosleep.cs",
+      "sha256": "af415d0b6c797ed05e5eb6a970af3eb4046f6052be07f1dc3e11a1b03f0e5215",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/PreciseSleep/NanosleepEvent.cs",
+      "sha256": "25fa8b251def6c37e74efe0b3818c29043770fcd4079d5fab0dcc0426f3d7ef6",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/PreciseSleep/NanosleepPool.cs",
+      "sha256": "8129273336c9254952b981dcd98a77bb8e8ed8f107ccadd7d3d2b225ff964dbf",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/PreciseSleep/PreciseSleepHelper.cs",
+      "sha256": "7bbb2e800017795fb6a71e2790c57673ad80f40adbbb7bc3d425e033ba402c0d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/PreciseSleep/SleepEvent.cs",
+      "sha256": "8c6819b3aaf5f3273e78d90af1797085a163de4d9d39b5520a4823a394b7980e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/PreciseSleep/WindowsGranularTimer.cs",
+      "sha256": "c5bf41d88e824dad6ba8782432d62363469c12f6810f08c178df16b53b73abb7",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/PreciseSleep/WindowsSleepEvent.cs",
+      "sha256": "15caa3d67f2a0639780d786dd95dd71178c23b1a358466c9b1178dd6a9aa11d7",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/ReactiveObject.cs",
+      "sha256": "99a93e893e3d889acbc3922601a6c3928927203d42a5539ccecd32a44759cae9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/ReleaseInformation.cs",
+      "sha256": "0503c14251dd91e22d3c55ca3eb0874b6d70e43e5c69720287429377ad2b51df",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Ryujinx.Common.csproj",
+      "sha256": "875e6e55f9f4fce53453bced2a6aed54ab8dbd0dc6b499bed94c0720c6b955a1",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/RyujinxException.cs",
+      "sha256": "96f0623f241d87693a37c4a2eb6dd161d4804f814706d296871f2408e09eeb5e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/SharedConstants.cs",
+      "sha256": "ff1f5c955e514c0d50460bd8903f12796cf71e4f7ce07367673df9fb9bf5d934",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/SystemInterop/DisplaySleep.cs",
+      "sha256": "407e1fab01a4b006b3663093f976a4b01c65742a9a5f8b80e945705ef45974f8",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/SystemInterop/ForceDpiAware.cs",
+      "sha256": "663a764d3facc3b8baac62ef5de16fa8a22d7704132c7e8186dbed8e832528ad",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/SystemInterop/GdiPlusHelper.cs",
+      "sha256": "91b12bb5bddb877ef48567485560a8984196b8a28ace82aa25a4898ea3ade927",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/SystemInterop/StdErrAdapter.cs",
+      "sha256": "fbd21fed5a7a17395f3bf21247dc44f47df66757dcd10cb55eaf8574dab2a6fd",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/SystemInterop/WindowsMultimediaTimerResolution.cs",
+      "sha256": "ee16db1674f94e792f8cd01bffd967efec907635a7c760de6d15a9bbb7ad33c8",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/TitleIDs.cs",
+      "sha256": "22b44e29f7a0f4a933f1069f2fe6ffd26e01d1e3905f1409bdcc496ed79dd7f2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/UI/UserError.cs",
+      "sha256": "4043be542542633457e8c6204b29441d4d0683d009aa90faad2fbde173ff758a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/BitUtils.cs",
+      "sha256": "3f33297b391f95cfba6d3ec848b69f94534848b74f919310181e0a51eb450261",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/BitfieldExtensions.cs",
+      "sha256": "182a82cd9f2ec6a43cd965d6c040d2bb8ff09fe0b9d39efb94f60184081cdee9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/Buffers.cs",
+      "sha256": "0628ee2f91b828ddc66d63912aef87e68ae84cda464fcc5ba22f2f9410698028",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/CommonJsonContext.cs",
+      "sha256": "624f5034f5ca12b32cc806642459ba67514b77ea37b399565d858516598ae45c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/EmbeddedResources.cs",
+      "sha256": "d955cba4e80302d01cfc67ac6b57d4885ca106b74d93127ad18bba242437b91e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/FileSystemUtils.cs",
+      "sha256": "60cd8f034cfc48e59ab8c8252b938248e5bb9653d57779e6f47f4fb2a6d09d3d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/HexUtils.cs",
+      "sha256": "4ee6c0e8c226bfc517c2442ff42401e25295d6fde4d4f109ddb77383b0303240",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/JsonHelper.cs",
+      "sha256": "d42a9fdc1fa7bbd085bd3c0e84c26a3c86c30c37a83160a92db3043d5f3fdba2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/MessagePackObjectFormatter.cs",
+      "sha256": "895860f52031bcd6dad6a8c744a27befba1fe825e8467f577a289cad76043a5f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/NetworkHelpers.cs",
+      "sha256": "1260bc2851107eef8459669c93354b25da12cc88ee1d077b8d6d7675708ee09d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/OsUtils.cs",
+      "sha256": "e75d4f0c62a9298b098e009d2d596805735d21b7b731076e9d4ba3210077d48b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/Rainbow.cs",
+      "sha256": "a9df92f5d6ef292f82063d26d21670c502e9598f6c89792ecbcce1aba9b0375d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/SpanHelpers.cs",
+      "sha256": "fc5c163542e440cc72d744f63d1b9faa9445a4ff1af797d47e31008efadb1821",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/StreamUtils.cs",
+      "sha256": "69413ec40ccec9ef38084c55efe419ce2b8ffed6bdb22e77c8524afe5f6155be",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/UInt128Utils.cs",
+      "sha256": "63fcc13db4c942a4abcea6e5995c60318e2af79af5a2aa7380974d00ddbd0887",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Common/Utilities/XCIFileTrimmer.cs",
+      "sha256": "247b646ceb698e6416f4bdb011d683b146a7f7a6b7b0469506230a33d9fadfdd",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/AlphaTestOp.cs",
+      "sha256": "39d027f1dcd3d6936411edf7c4f512be7979140e92de9c84a507bb57e471341a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/AttributeType.cs",
+      "sha256": "3d4cbabfa22b5ef7e645967ce292948c9061c4ec03334f3e4abfc0621407db60",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/BufferDescriptor.cs",
+      "sha256": "db6e5f75da8cba2b911a54a48e8b7ce7e9842a715c0c3d88c684dbf36a6c0c16",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/BufferUsageFlags.cs",
+      "sha256": "e02fbe338d658331ddccd46181c65f9cb6b1c89043c8fd027795cc18641e233f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/CodeGenParameters.cs",
+      "sha256": "878f3b1d449dbe2c7d610b8d1039ba605a25a6b38b80c5cf27293c36ca52dd95",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/CodeGenContext.cs",
+      "sha256": "4743f8ffbbd5b3e94267540d8be41f235f18a023c112d10bdd87505b559df9ae",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/Declarations.cs",
+      "sha256": "ffda44c54eb7c503b03d90aa9708c0f661b399fc2ce98f6af74bde307b372df0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/DefaultNames.cs",
+      "sha256": "a620edcb17a429e9fe126baadb098135855ce5e277aa5e5dc912c6c4e3ebd60f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/GlslGenerator.cs",
+      "sha256": "b00e56eda18b8767da0c15c7f4abf57aa3d3a2883726cc8b6496124ee8d79791",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/HelperFunctions/HelperFunctionNames.cs",
+      "sha256": "25a1ab3fa91b4f6e3073fdffc6b714b8db2b7740d0a42063028ea9e9df5cd646",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/HelperFunctions/MultiplyHighS32.glsl",
+      "sha256": "d51c84583eadbd8cfeeb0af2f9ab2485646bf1659e6802ff32e3d4e5014c22f0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/HelperFunctions/MultiplyHighU32.glsl",
+      "sha256": "f044790b6e9acce06828b60d477c0cb51f1130b8d69f70a8e2bc2b4b3049e5d0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/HelperFunctions/SwizzleAdd.glsl",
+      "sha256": "e70dd4d494a7a8c0be381539c80efba106636e1e47a2f4872a13e3b2e31626c3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/Instructions/InstGen.cs",
+      "sha256": "8336af9df244ac7d674e16bfac337ccfba6f9394c036fac3499e1ac1a0876ab0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/Instructions/InstGenBallot.cs",
+      "sha256": "50fb4a1b8a3422c225830c8d64948f54c7ae5779ace22862bc5aecf7709a66e4",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/Instructions/InstGenCall.cs",
+      "sha256": "e97fe36de9c26a6143be7daac67e5f5c0552e14469b01d76d642c07a8e204e63",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/Instructions/InstGenFSI.cs",
+      "sha256": "ff93f2991969ce0eadbe70dfc9ec68568792a10022030d9de5c772cb010ebd2f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/Instructions/InstGenHelper.cs",
+      "sha256": "43712b6e26ad133dbaaf7f8f36add7660c099038ac6c5b66a275af4e8b73ad95",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/Instructions/InstGenMemory.cs",
+      "sha256": "d4daf05c591b97f414554976de39062bf38b997bd92bdb0eb2d6c90ff4ba50f9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/Instructions/InstGenPacking.cs",
+      "sha256": "6638d944c53fd3a481d5bec94803c338a5ed67e444f2cf431c20b3836ea18d55",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/Instructions/InstGenShuffle.cs",
+      "sha256": "7770f7e7ef02fa2d8dba813a6d5dce6af7c61a579384c92e4cfb690db47eb8ac",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/Instructions/InstGenVector.cs",
+      "sha256": "f8a7958872ecaf51cc8e8eb97d98ff997e22ffd67b314741a826a2d833b88109",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/Instructions/InstInfo.cs",
+      "sha256": "1d1788bd30679eb896c31013c469ddc98f7b521d4c5f1d2724ead8cd13b2a75e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/Instructions/InstType.cs",
+      "sha256": "2bc855bae537f13cc79e22165fb8799ffacd646c91d6b4539cd87e2a3befe704",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/Instructions/IoMap.cs",
+      "sha256": "dcf94e6bcc8f30405012422a5fdff90d7540d5574538a213c6622088517dfbda",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/NumberFormatter.cs",
+      "sha256": "b9432d275e617779780a429c69207bd56bbc87c0cb22b698808fcfceda85865e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/OperandManager.cs",
+      "sha256": "ff203c0c196eee4f2534ca011b87b5f159e156594f2ba8c40490174e01ed4b22",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Glsl/TypeConversion.cs",
+      "sha256": "8a18ffb5e94c48df01a9756f5eb89e7ee2279a7076081d71493c6b5c57cc98bd",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Spirv/CodeGenContext.cs",
+      "sha256": "db8a1b1b5e96daddf8c3f5f016a9044100684b75dde7a2ac4c710f78a033d0ac",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Spirv/Declarations.cs",
+      "sha256": "63814353c4474f89624b327f464d6a417f2f73d512b3cb8f603c972da268f9d3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Spirv/EnumConversion.cs",
+      "sha256": "ae7cef29d218a116fe335b77e4a6769745fe1c6a75aa1e7903d83c6c2df331bd",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Spirv/ImageDeclaration.cs",
+      "sha256": "bc3afc38536e1be60e3de8c8fab67163fe17d2cb3566cd8906f668294ad0d9b0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Spirv/Instructions.cs",
+      "sha256": "c89d71e97ac66986ead1f56c7b46d4da6f3e669596ba84d52df224e0788a9eea",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Spirv/IoMap.cs",
+      "sha256": "88c3c21c294b0dfe060a351ae8535485687b266ffc45fa148576f72529356193",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Spirv/OperationResult.cs",
+      "sha256": "98c81ffcc10ee2f90e12052a62ffab23deee65472e4131f243ea6795b140df44",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Spirv/SamplerDeclaration.cs",
+      "sha256": "7dc23e1f5184b3864c5b0268cee0f3364c79e169a0b777a6283bc90a0fe24b4e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Spirv/SpirvDelegates.cs",
+      "sha256": "cc46a3bf06671fffa7e3606e11bde1aa2ab0c2ee332b25b0d05231560124c4c3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/CodeGen/Spirv/SpirvGenerator.cs",
+      "sha256": "44886a62e980a4193b9801c995a899e068979cc06b04ae866e2ce239d0d7964b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Constants.cs",
+      "sha256": "1041aeb3fc09574b86adb4b725fab7bdcb8daf89d2a6e9e827331211c07a5ed9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Decoders/Block.cs",
+      "sha256": "554b60321e3b5d09343ec3e7a3f7b0c516614cae128669489a7c01c32c896413",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Decoders/DecodedFunction.cs",
+      "sha256": "3a8d907bbc0185282e2f166542b57e6878575649be2c44a4e65cc1ce2ee722c9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Decoders/DecodedProgram.cs",
+      "sha256": "67e63657c8b5b49e1859935c6aaa71ee7bfadf96c4a6cb449be012619c53631f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Decoders/Decoder.cs",
+      "sha256": "699049edb12f9042f0697d8b0b94e4683e00b83adac5b2c31c2088d1aca99dc2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Decoders/FunctionType.cs",
+      "sha256": "c2417f5d78a5a9bfcccaf9322a73ec2cbda6c1f201860cb0f4b076460b4f73b9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Decoders/InstDecoders.cs",
+      "sha256": "f217076b3878a9ed676e238373cb3d21154fcc99aa9a75ca4ba5f98948493f9e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Decoders/InstName.cs",
+      "sha256": "20c1c2e313d8dba3d71f5e2e2bd5f6741ac758c4f70071ae728727a93800b03f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Decoders/InstOp.cs",
+      "sha256": "6bf1907e9bc6a2c7af203b784d1ae00461f4db98b548cdf90edcd42d311634d6",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Decoders/InstProps.cs",
+      "sha256": "db17a53d511e0c989b97ea75d3a9b6d9f2d305a23178aade4530a248e445cccb",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Decoders/InstTable.cs",
+      "sha256": "dcfcb9b8fba9c3626a2865f29e95336792bc9133c1785839f222582cdd23a35f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Decoders/Register.cs",
+      "sha256": "32642fd88b840f9f32ec421733961a6aa641080aa4a19a678f586a87e024f729",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Decoders/RegisterConsts.cs",
+      "sha256": "d9495bce7ccc8c69b7e170ded048ecb1b3ca10bd9566ca0db05e9ec2bf1323a4",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Decoders/RegisterType.cs",
+      "sha256": "e36ae0268f0da18b8bb11b3fcf012c039652d996a6d5d77f9b770d924766130d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/GpuGraphicsState.cs",
+      "sha256": "e231fadab19e0002c15738896c5d4d77e81fe46e0db6b4d93564a2493f89162b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IGpuAccessor.cs",
+      "sha256": "bff9b5b10294b4f9742d95462d879c08c40c1eee225e79547e0c4b662b4a9bb3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/ILogger.cs",
+      "sha256": "245c51326f614156e6694e0b2477d7a53f1ebaf2ba0f053df34804c53a19d498",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/InputTopology.cs",
+      "sha256": "452ece086269573775a590793c066e0ac0992f4ab2195507344f4042aeb9e17b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/AttributeMap.cs",
+      "sha256": "2868d45e4996ff0eea1f9c7bf7146641e52b70899ee4b3bd763c1f4cbe72e255",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmit.cs",
+      "sha256": "a1f5ff712176d6e6f71968be04226efd20313e6883ccf624102916e61d8a2c4c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitAluHelper.cs",
+      "sha256": "08d172ecfb7fae05780b678a2336a5475fdbe8d0486ca32899090477cf5d6068",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitAttribute.cs",
+      "sha256": "58948c48aa3abdef7f0ad5195acdfbf7df4e9e943f325bdf16d169499011637a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitBarrier.cs",
+      "sha256": "fa25a3abc08088fa652e713091d420a5050c73616f52141e9e7af19de9103d55",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitBitfield.cs",
+      "sha256": "53315251345b91deb0f6b094cc1cf0d343b0169d9a10573010cc0da96deed270",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitConditionCode.cs",
+      "sha256": "03fcbb96a26e8b4c209d89f82d96b7779e93e31cf677607a88f4be6481c7f1e4",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitConversion.cs",
+      "sha256": "baa2d80b81846772ee0595c70ae44b6c0256752e35b06dc1b023add2a69ab3fb",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitFloatArithmetic.cs",
+      "sha256": "1e4d554dc3c6f068e722033a375ce1de36d9b2b5cee56867dbb10b3e148096e5",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitFloatComparison.cs",
+      "sha256": "64f087436cbabf08134cc7ee018ec0d252f6af6f8d41273193af26bce37b15cb",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitFloatMinMax.cs",
+      "sha256": "f1c56dc651ddf3b8f7f8c9a5cf99320cd9811bb61a7eb1cfbfd406dae0b26e08",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitFlowControl.cs",
+      "sha256": "a05a637abf3d7c41adfcfdb84bae8d3e9d58c51e04d8e82af18d56f21d49c401",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitHelper.cs",
+      "sha256": "2c7b3c3b0651d2232c9f1f2f126ca923ae5b898d0ac623c3a0d2c7a2f1503d02",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitIntegerArithmetic.cs",
+      "sha256": "11c2e58c7b2390c6d3b87caa3cd3cc17a65b3471933a4609b0aff703ffd40632",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitIntegerComparison.cs",
+      "sha256": "ee1eb5105f2b9110e3f99e436ca6567bccfc388f004e09a024c8fd1399e3d8a5",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitIntegerLogical.cs",
+      "sha256": "6e5c1b20c2779a6aec237fb527f7a2b90f55edad9bbba2a6b94a4cc67c27df00",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitIntegerMinMax.cs",
+      "sha256": "7aebb95cc968fe1a6e13bebf89033c6dc7c21dcef91fff25567ce51cedc6bff5",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitMemory.cs",
+      "sha256": "5ad31e57c329960145e4d9681f1dbc15fcc4b3096382e436eb8f9831324301f2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitMove.cs",
+      "sha256": "a25717209451d928fe7735503bc5512f146a4917b4e629e7ae2eff150926f7dc",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitMultifunction.cs",
+      "sha256": "dac23a91a76af85d172b6efa095ec59a7978fd310b8de60b465e5c4b2b6895cc",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitNop.cs",
+      "sha256": "f806f9b3c9ef4a7feee828e00c3efe4a86984ebbc4e9a9a2e616dd4dd1a03ba7",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitPredicate.cs",
+      "sha256": "b7c0793484c997ef9e5324a6bec6651982a339d62666e48cfec238bb2dc57019",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitShift.cs",
+      "sha256": "85bcbf259052b35377e934eb162412e5f01687ae48e0fe510cac730967b37c9f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitSurface.cs",
+      "sha256": "e62e8ece1cbda09e64f69baa17387cce48c3a724960bef63344c88b542b8e58f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitTexture.cs",
+      "sha256": "54febdae0cff25561b3d96d72c10225ccb071f3c4831b73d615fb33ab0e42e14",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitVideoArithmetic.cs",
+      "sha256": "a2dc7d79d645b42da133552ebf9d44bb2989d05098fb3e222abe52d20b6e548a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitVideoMinMax.cs",
+      "sha256": "7e81865b226ac968a924ff6936846a5169a29c26df4c1f634ca2fdf249b3c87a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitWarp.cs",
+      "sha256": "1e7a5705759842f895915d90d26d26f0fccab202f12dfd5c30246815dc3758fe",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/InstEmitter.cs",
+      "sha256": "0772b825b20c739d1ee990cd191f9c267ecd72f2010e018506533226f020ef02",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Instructions/Lop3Expression.cs",
+      "sha256": "dad4962501e8048a8cd7da4799a56cac6e7d8aefe33452c2c00fa5e2f07feb06",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/BasicBlock.cs",
+      "sha256": "282e347df3155609bf80e5bc612e7988845deeebf96bf2fd52694b6fbbc91eb9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/CommentNode.cs",
+      "sha256": "5c12ce3f08736e3e57760ed215f4dda414bcde9c17c196b6cba38e546a9d437a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/Function.cs",
+      "sha256": "28ed4985efbe31df42f52dabb5cec333727ae31e7f8ac2e93573bf7994913dad",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/INode.cs",
+      "sha256": "67a5223fdd6d3c465e2c6cab91b5caf3dad93c0856015ca1444632413c2aa93f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/Instruction.cs",
+      "sha256": "9493d26afd4943462d12e0f5fff8dce5569d0a06776e4d504f6322d8b335443e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/IoVariable.cs",
+      "sha256": "a01c7fb71efc06f479a7fedefa3086d34988516146f0e28474aa001c8a0850d0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/IrConsts.cs",
+      "sha256": "57dbca01e0d4e81d23d3ce398ff90c79fb1548afad5c23a5c4cac55f4d56517e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/Operand.cs",
+      "sha256": "6d663e822235789cf7460fe6ae5532b1c2fd53346dfd7b53a0385b3e85880ab1",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/OperandHelper.cs",
+      "sha256": "d00789b33f4f45b21d3d6f3c00d8c299fd23b565297904f18d278bd843691372",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/OperandType.cs",
+      "sha256": "ad0650f23e2d2abff90fcfbd7e55e301643f7ffea8e075c76c5a8278d5aaf25f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/Operation.cs",
+      "sha256": "a3a4a47a9fe8feb2c63fba8357d2aa0cf0dc090741c584fa2695bab77750aa8a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/PhiNode.cs",
+      "sha256": "1602ceeb4116b1de38a1503d36e78220df22eedc78423131a500d1f800e5d182",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/StorageKind.cs",
+      "sha256": "19e3cbe58df5729f83deb27fb62a8f5163adf7108786b0a85fa471da864c090d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/TextureFlags.cs",
+      "sha256": "ba4e8b963faada4dde765ba17694d5af6466f68bc34e4dc68bf7f685fe4f1add",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/IntermediateRepresentation/TextureOperation.cs",
+      "sha256": "265ff271a4843ce36b484f471fd19005fa68b3b7caf60459e1ba5d36ff92119c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/OutputTopology.cs",
+      "sha256": "a288af1c23a7b9c52749778e27245b8fd2d10d34036c2008645289ab23aabe49",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/ResourceReservationCounts.cs",
+      "sha256": "72bebe717cd234bb6d50b26fa61d383f40afe5e8ae151d6f649767a844fc3af1",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Ryujinx.Graphics.Shader.csproj",
+      "sha256": "fe7c06634ff782ad3f4721e0f9cbf737244446f4c9455bc9489fa5a26e3ce012",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/SamplerType.cs",
+      "sha256": "37ea0446fac9f1d8bc500f7e06e2b71bbd643969535330e0fb98104d179f962b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/SetBindingPair.cs",
+      "sha256": "8808ad2075e0a574afb96fd2df8209a0dd8f9a11ac8af29528514e89860fa85c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/ShaderProgram.cs",
+      "sha256": "44321a8b8f46db602a7b552d18b179896e587ef0b1939381517abef1d265214c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/ShaderProgramInfo.cs",
+      "sha256": "d687002287b46240375a234dea9275980fb6566955c27696db6254748f737668",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/ShaderStage.cs",
+      "sha256": "bbf921732d94ce25c928a9e7ea955bcb60e26245b150046869f939940e2a25d8",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/AstAssignment.cs",
+      "sha256": "7a6505fe566fa653d1215ee4c18ac4870ac5e2e7ed72c01b7018abd73a786318",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/AstBlock.cs",
+      "sha256": "5c96f4a40f6825c39557838a82e2e78fe0a2d49362ced5ffc5a0ea941c943c72",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/AstBlockType.cs",
+      "sha256": "52bcd07c80afe49fdc9e4ab08ae09fe66f9bbd982647c74daad8675f7fdc8ffc",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/AstBlockVisitor.cs",
+      "sha256": "d380b838ec5ac585de4ed441c9ea5df5f2f742c6aa8f342e710dd7764be58a9c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/AstComment.cs",
+      "sha256": "abcc88a42d63da6c32bc5ef9e3756d89c02a3164cf19ad617696ea5cbb6a12d4",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/AstHelper.cs",
+      "sha256": "1304daedadbfef0e6433070fae0838564bb6bb13df6b3779080ae4922f5fca37",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/AstNode.cs",
+      "sha256": "e08a57da34e2f841399ea1ff6494cea1ebea16ffb7f9e30e1351dba89d033ea3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/AstOperand.cs",
+      "sha256": "5fea0cae650158d44adad9809474ea8f4900ea799942a852ee84b01aab49bc5f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/AstOperation.cs",
+      "sha256": "58630ed338ae2df8de55289d24e8469b5794d6088399d427d629446f82438f27",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/AstOptimizer.cs",
+      "sha256": "b47548ab49a5a9fb57c363f4afae2018d96d09f14f728fbd3e4e2c25ef6d846c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/AstTextureOperation.cs",
+      "sha256": "0dd05f713167bc2949240abc57b843bca7604cc24def2562df4ce341ed88753b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/BufferDefinition.cs",
+      "sha256": "77daf4a3eb287167f49ec38320260049883d2b92fa5d36f6c95d3a403ce285dd",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/BufferLayout.cs",
+      "sha256": "9f8433c00b4fedf77074e04839a0c4bc81c134483ef7ff169d40c89137aa2181",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/GotoElimination.cs",
+      "sha256": "f1c96eeeb6c39a053331d09b19ccff6fef4a87496647f57f8d2a58d0dacc7131",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/GotoStatement.cs",
+      "sha256": "80e6dc91dc9f08bd7dccc5be4302ee2f2fd454da517d018d9ae997a35b09de9c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/HelperFunctionsMask.cs",
+      "sha256": "fc96b24ca138122f38e1cd6bedfaca8f2036833f7f51d55c48b858061d8d8eb6",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/IAstNode.cs",
+      "sha256": "e4b704ae1946e0dc914553a94bbecc31a7566854db323023488efcb9d79484db",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/InstructionInfo.cs",
+      "sha256": "9f8cbe1d22ee8c4cdf5c0b871981873906d53c0a507ee8f7edee82f54794c5a8",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/IoDefinition.cs",
+      "sha256": "f1577af6848212cf4e5497206dba1c0ca4b81f833c0174b2346e21a23a1035fd",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/MemoryDefinition.cs",
+      "sha256": "5f721b4b3ff304e56c354e7cc07c065d5db88803857534a37971f8741d8f90a7",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/OperandInfo.cs",
+      "sha256": "97900a93d45fb12db773b63f6279eb7a4ceaae1a9e6e90fdc4fb8d2639cc0c6a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/PhiFunctions.cs",
+      "sha256": "6b8dbb1d780cd77eb9cda51fa98058c556bf20ea5a71b5c6b477c838b8fde688",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/ShaderProperties.cs",
+      "sha256": "7238598605f704eece3c1a891a4fa5c07f01c9ae3c57ca524270e367f23d7fe6",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/StructureType.cs",
+      "sha256": "f2951740ba3090ea47a68041daf7125fd235ec4347ff0e1f11d1aae7e998252f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/StructuredFunction.cs",
+      "sha256": "f02ad545d20bc6d336a88f4f018839f3c64452f8d9b6df48cea13bd6e311abb3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/StructuredProgram.cs",
+      "sha256": "38587893a0230f6729143aa9d897ca83998f9b185fd8faa155580392c2ad4f35",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/StructuredProgramContext.cs",
+      "sha256": "80a14edaeacdb915e37115451361ca0353f917ff65d33b0604c638f80bba8983",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/StructuredProgramInfo.cs",
+      "sha256": "aa16beea89e0cbe3b63d0ea5ac9a2404453206865bd36fa9fde2035d3aee8b58",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/StructuredIr/TextureDefinition.cs",
+      "sha256": "1ff93237e99ba7dbe282d1974858dadbc09dd211d9b3730a5d58ca444e82fa3b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/SupportBuffer.cs",
+      "sha256": "c34c4a966fe2a2fd2867d35c28675a362a33e00640b53031523c3cbf179195ca",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/TessPatchType.cs",
+      "sha256": "e9ad3b354df7a60f3c4e77d68e7651d4e86f1cc5c92c8bc5dbb67da6b2c29751",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/TessSpacing.cs",
+      "sha256": "e76d96ecf795a69dae3d4e802f74e0c74e2f94e09cbc16e5b96fe499b843f201",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/TextureDescriptor.cs",
+      "sha256": "c8a051c23d0f957a1b31d937b038267479811b9f8e50935a88fbec3882b69afe",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/TextureFormat.cs",
+      "sha256": "be50c441ce53c81bc64008a88bc4d193d6b68fee81ba83ea11dab5a8e1b65218",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/TextureHandle.cs",
+      "sha256": "e72ac096d6dddcb57db0831fbf2e6d1269708f6e08446cc5f0ac5b9815c931d3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/TextureUsageFlags.cs",
+      "sha256": "4526e5f4fa048afdc1b7c3da31d4c4c89f32b52f75858a5676842774b1340c1d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/AggregateType.cs",
+      "sha256": "0dc4a1eca954c38efdd8c43f2db606803aa283af043f852f4c6251e047406eb7",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/AttributeConsts.cs",
+      "sha256": "fe14f9b58a0256ade65b1c4503205c8a7cd5d21b965ee189be4e01dc34523b74",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/AttributeUsage.cs",
+      "sha256": "0d4b6f35b79524a9c7e3e775cdb74005655b59eb9b8f99dbf8b6e03dd8e75259",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/ControlFlowGraph.cs",
+      "sha256": "a41e3f4e1b3fd45d3afd535f22a16d407c1337370fafc41e73cc407a3753fb2d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Dominance.cs",
+      "sha256": "3b27c330cdd5af10db5b027750be66e6a017951b0f0dc5e02e55109ace40a429",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/EmitterContext.cs",
+      "sha256": "09663ef32b645165d1603592f67e5ab41138f0f88ac249de070b3aa94f9f6cad",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/EmitterContextInsts.cs",
+      "sha256": "c1bf608891a27350423961755f6f7eb7efc8dfaf7f86dabe3bfd893e623f13b6",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/FeatureFlags.cs",
+      "sha256": "6f2c2ab94575b2940a42c678bcb76f37875dc7616ee5cb39945135525b0e84c6",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/FunctionMatch.cs",
+      "sha256": "f5bb20c8bdb05d2f432de15908468bc2197a585339cc365940aea6b952d6357a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/HelperFunctionManager.cs",
+      "sha256": "cbbc0a485a23907932e1479cc094d92ec781dcecbcbb6cba534a284238ceb7c9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/HelperFunctionName.cs",
+      "sha256": "0ff978a8000b986953aa4138f8e50cac4e6d702dc9cb8081ce3b4658b335ceb1",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/HostCapabilities.cs",
+      "sha256": "7e787d6311514adfbbc2f4f95044f1d7248f62f6d08431cff13703b9fc065b93",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/IoUsage.cs",
+      "sha256": "ec826cfa20ab4327f794fc3ab6e725165b408dc9e5229e4df3ef817a1052d307",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Optimizations/BindlessElimination.cs",
+      "sha256": "3606cd5892168d916152ad302947158355b3cf3aaef03945c774a1802ea7750a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Optimizations/BindlessToArray.cs",
+      "sha256": "b14c971e122e2d2d627d72cf3c5a2f2e791e494968d71694bdcf183098810d1c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Optimizations/BranchElimination.cs",
+      "sha256": "e5a9ec80e83514cee54ed07bb200c36f6bd1bf4c02a13d75e5b02164a727d212",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Optimizations/ConstantFolding.cs",
+      "sha256": "b508b607d6d00f28df0a57e183905b6f7dd07769dadd2635ab6b1f255f1fca63",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Optimizations/DoubleToFloat.cs",
+      "sha256": "225d08884b38b28031cd8ed270326ca44bb72b39ee0d3c317732662563a2647e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Optimizations/GlobalToStorage.cs",
+      "sha256": "5264b335281028b1719250f83105a75912d32608b17367e049b62052a8bda86f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Optimizations/Optimizer.cs",
+      "sha256": "f62b3b85ae627c138f33699405cfdef53224b5ff296e418f41af72e4aebb90e9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Optimizations/Simplification.cs",
+      "sha256": "afd0edee38a8cde5a2abfb244fc027d5a10b56649aad2bf76730847e85c5de5d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Optimizations/Utils.cs",
+      "sha256": "9f2adc5fe85f799ca95b22aaf35b27a1a2cb5e310bf698abbd2aa615fcb4bff5",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Optimizations/XmadOptimizer.cs",
+      "sha256": "e866ccfcf4cc89ef2f79f07b0f44803efafbab4313c05e5353c99d474ac4df95",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/RegisterUsage.cs",
+      "sha256": "5dfbeaf848eaf5c7e0471bec085c35730e2cf2e67dbd253f0cb853ff6c3e5f5e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/ResourceManager.cs",
+      "sha256": "35f9da40216adcad512d49b00ed329e03d10c421a5ab10459808daa2902f2620",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/ResourceReservations.cs",
+      "sha256": "ae08a2f8dc9a5e26a883571b54d4582dbc3e6b2f1b12d6fa5c583f4d4f4b09a0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/ShaderDefinitions.cs",
+      "sha256": "554c0565b1ef25089a93bf91fb8a176a3d08d7239e8a37a541ce897954a46c7b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/ShaderHeader.cs",
+      "sha256": "0c8ba0600b5a557a29456170caf51b03ad953b5bbdebe65253dc673c01e111d0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Ssa.cs",
+      "sha256": "8533126b24070c555961bb72728ce5bba86ccf72b5d4bb7ef333b1736cf1449e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/TargetApi.cs",
+      "sha256": "8ddb174b07322d80c411469b3930096f49f501c96ac9dce10f9fb96f6216665a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/TargetLanguage.cs",
+      "sha256": "61d228af9ff28f0e22bf69280244c9d9499b662aca9d64811b4e7e496ae6dab9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/TransformContext.cs",
+      "sha256": "2ac1c88d6d9db01a228b82f9095db59d740d591b9d89f1ec2bd92865a01469b3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/TransformFeedbackOutput.cs",
+      "sha256": "c190dd23d807d013347b7018543d1293544e429e9eb84032c1347ed91f4b28c0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Transforms/DrawParametersReplace.cs",
+      "sha256": "7332f163658fd1c3e13adc50237d207371972b733a6a5489dc7fbef01c14d269",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Transforms/ForcePreciseEnable.cs",
+      "sha256": "38ee7389d40d742a3540211aac955ab0dec5b6bb522f25a1fda82952597c69c8",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Transforms/GeometryToCompute.cs",
+      "sha256": "407ac0f6e450288b0fbeb2794c242cbbdd2eede862579a580e24f3a1289a98d2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Transforms/ITransformPass.cs",
+      "sha256": "28ed1477ced191ebfadd9a123cc095796e8a5c0fe5e9d5bd6ddbfa762667b892",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Transforms/SharedAtomicSignedCas.cs",
+      "sha256": "5b8c476a863268202207f524abaedd5be1fd77cc243e1e1a2de38922ced1f972",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Transforms/SharedStoreSmallIntCas.cs",
+      "sha256": "635670f094e8677102a1f7758c11dd9d2961318ab64662bc2209fbdd0fb068c3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Transforms/ShufflePass.cs",
+      "sha256": "d72639e8c50d749d80e0b22591665a3e9b6ba780d99d029dfb0625335e79a3c5",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Transforms/TexturePass.cs",
+      "sha256": "f5925fe794e8ab02dc332c36fb583436d87a8630c98f7fa112e53972416625d2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Transforms/TransformPasses.cs",
+      "sha256": "d433875bded694adff161c7c1d35a97715d7138062e1087faf8fd3c28ce49926",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Transforms/VectorComponentSelect.cs",
+      "sha256": "3b58a57ee2c1eb6fdc4510325293e8af8ad229854d58061290a56fb7f62bde34",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Transforms/VertexToCompute.cs",
+      "sha256": "22e0e3fe28ab3d6098857f872a5776a93177d56999107c0a9dc8754857296163",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/TranslationFlags.cs",
+      "sha256": "16f4fc8b1202b4d504c5c9c1f4f3d639ec6dfa098fd784f8451302b5d766b223",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/TranslationOptions.cs",
+      "sha256": "72f6f2c651ac79d7393f93e94840ed4aad03c406d62f62057dbaf375ce158b5f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/Translator.cs",
+      "sha256": "66c413a2268b38faec700ff0b24df41decb81783c1b5afe7d8a1c290bb91b9ad",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/Translation/TranslatorContext.cs",
+      "sha256": "57e842a2b4519ad4dfdaf2aca60dbda0d6424aec2a13c13532c2db1ea390c3b1",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Ryujinx.Graphics.Shader/VertexInfoBuffer.cs",
+      "sha256": "aae42b60a56790648bdf40298e50afa7bed40da05ce296fbf0748d8c4648bd28",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/Autogenerated/CoreGrammar.cs",
+      "sha256": "d1b61ec90d6fcdf83c54b02e7d7192b48a0e15f319e1205f1c85d957d96aca1c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/Autogenerated/GlslStd450Grammar.cs",
+      "sha256": "702963d4457b4d7183ef328e4dd111773c1eec3af64e57f1d9cbf9683ccfc508",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/Autogenerated/OpenClGrammar.cs",
+      "sha256": "06b16b35fcd175e7273c37e3560cee694a20856e62f9fc007d88ba475f30c01a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/ConstantKey.cs",
+      "sha256": "fdf212c24934612efd7e5b47cf94d8618561eb76fa58195ce3bb8d380ba4532f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/DeterministicHashCode.cs",
+      "sha256": "14dba287fd4f951272fb45ae34e114bdedc049ccd425163e9f90b1deb6d63839",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/DeterministicStringKey.cs",
+      "sha256": "a09fd8305c113f320f7fd9451343d0449382b7c7c6dcba73b9deddb6c8ec50a0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/GeneratorPool.cs",
+      "sha256": "2dac758a500b67d5f9a526d488eda3708985c8d42a561226e13e83eb5cb9fd9c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/IOperand.cs",
+      "sha256": "1b3435e53b286cad99325a1417fd5668eac604a0ae856132f9008a2e459dd504",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/Instruction.cs",
+      "sha256": "d7e3f93669ebc1f14168744fd4e7416dccefd828fc90463a94bf1d475f9f23bc",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/InstructionOperands.cs",
+      "sha256": "6c5c602e2ebc4d926050d61fc17aff653d858d58a8563a5a41d47df36ac1b748",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/LICENSE",
+      "sha256": "23f18e03dc49df91622fe2a76176497404e46ced8a715d9d2b67a7446571cca3",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/LiteralInteger.cs",
+      "sha256": "cd6e87def5fbb4417f1a4680fdcd7656174b11668c6b0a64e7570a382b641ecd",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/LiteralString.cs",
+      "sha256": "a1bdf42ab790783a2b860fd86f62c11748a5175bb5535b08b4ef965d998b94d4",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/Module.cs",
+      "sha256": "bcd13e6e535ba1e81c136c96a779d7f7b0d0728f4cc4939d56e86bcee16450e1",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/OperandType.cs",
+      "sha256": "c3e31e64d234c214c7209649d988d72e297a6213b61b9e6ae02d7f98951ed8d8",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/Spv.Generator.csproj",
+      "sha256": "12452e81253ca4c1c7fdbde30a2967fc76c5f86b9e3feb28a708d084a7d814e1",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/TypeDeclarationKey.cs",
+      "sha256": "5a28f3cc4b03404f6fb8aa1c8e882ceabcaba113bb7e053557e0972902712a0d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/third_party/ryujinx/src/Spv.Generator/spirv.cs",
+      "sha256": "edbe69718c6fd6fa9754fead258bef34d9ea6e93d8a3c2d8db8fdd4436bd831d",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/tools/guest_dylib.py",
+      "sha256": "357d7f8604396f73f48ad05c620e2aa955732f035854b69132b899043ca680a0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/audio/AudioBridge.csproj",
+      "sha256": "b88eb299e26f54cbbbea6679bc61ee51fe54a38e977cc14b42933852c31e12d0",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/audio/Bridge.cs",
+      "sha256": "fda29286fa3d684d9a5928de21600c7615156ffa6486cee1944acd47a1b5d36c",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/audio/LICENSE.audio-source.txt",
+      "sha256": "781bbdf040b7d0286c47cca6bffdb9148dfe751c0c9cabdf1a1752412a2e56b4",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/audio/build.sh",
+      "sha256": "54a7c2419930519b4727bfc20c8b237d27af815b2a3aa587992e2d51528ecc58",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/audio/test_audio_bridge.c",
+      "sha256": "243d5dd674ec9dea6c42eceb5e9c953ab236439746e5f17b47a907e106755118",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/audio/test_audio_output.c",
+      "sha256": "a0f28dfae349e11c18463db1f5704e04cb1a07583d50b645bb080433e5fefb5b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/audio/test_audio_stream.c",
+      "sha256": "f00ceb4965d5371bd1dc70517793a700cc68599b2bccbcf13335f44880b82336",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/build_probe_metal.sh",
+      "sha256": "3469e350ce212da9bcc8a6b793f8f66603da828733cb9e9150d26442b0b6faa9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/import_resolution.c",
+      "sha256": "5b308c0e7d88273ebd169df656b5865bb040059f1e1f000bfd3d9800fc3e41bf",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/ios/NativeAOT.targets",
+      "sha256": "43da670aaf07603d77d4f946614d4ab1588ff3a6e6026a01117910707c995020",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/ios/build.sh",
+      "sha256": "37b6f548b8bafa8c0eac7b069f02e6a4b6659fef832291812c734790318e9edb",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/ios/main.m",
+      "sha256": "eb2fb85370f9bbd01c46a0359d529c3f443938fda22d74d7726cfede48d0b9e9",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/ios/package.py",
+      "sha256": "87909b369b7f327b2f733f3c6084e06d45f95fff28f79f4767ee72d4ab6092c1",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/ios/patch_memory.py",
+      "sha256": "4c156e99f3366fd3e9616e751c8076de964d611a61b332f40b970750bd25ad78",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/ios/test_audio.sh",
+      "sha256": "82f1468d6bb1970e43cb6eb5bd9c5539b3a1eb56ac58de8f1092f99ac8eb20fe",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/ios/test_guest.py",
+      "sha256": "218c3eb3a0e0415819132d78ea3f6ffdda8354392a4461abd8ddec19002bdfa2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/ios/test_patch_memory.py",
+      "sha256": "225ad48fd77d67d4649b859367bbbc0c5bf27ed6d0f1cb5a6a2c8bb91afa8877",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/ios/test_remap.S",
+      "sha256": "c1e13038ad06b9904b6c5c6d98f781aaf2d5bbd0b5cdece664d5b2956ceb38c7",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/ios/test_remap.c",
+      "sha256": "eb6d2ccf550087d20d013ba568cc14026e65606d0fd038478861514cda9c5f38",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/ios/test_timezone.py",
+      "sha256": "609a0d2d8481677af68ec9bad8f38780e990b6d209d0de426b8bd83dec387c37",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/ios/test_touch.c",
+      "sha256": "ce783417e0f54e1794f83986b9d98a1527899875a3b511bb7b02065e8bcfbe3f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/ios/touch.h",
+      "sha256": "4a326c13730bbdbf9329ec758d20ca250284215600f6717c8319b02c53eea698",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/ios/verify_package.py",
+      "sha256": "1e1be02bdc71c19efe3a6edc867d48a0c897d5459ed8f29d25f525a8acc41f6b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/loader_layout.c",
+      "sha256": "383d1365cbaa14459921fb5cec20cae8135701011a35a6d6e69403bf54ccdb6f",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/module_probe.c",
+      "sha256": "c0987b202d11f3a6f8d5a44ecbd240b25d83ecf16315aef30a7586e81a46d9da",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/nsoimg.py",
+      "sha256": "07a5ef0a6ee8c51ff2d755431c239f505b198b350d7d64389fe3ed50fed77c13",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/probe_audio.h",
+      "sha256": "3ff758cccff3cec1f3dc46a353d748ed4ed69a9797ab74f6dbc955673d7ad648",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/probe_exit.c",
+      "sha256": "36f57b7be438aa935f4cc5e8e17a608444847f659c014b49e01871de9cedfbf2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/probe_fs.h",
+      "sha256": "7bde6ce05ed585d8615a4b649edc3c4a3165f8c3e2e8187e47647344cc823ef5",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/probe_geometry.py",
+      "sha256": "1560f3720e6f2e0a23bb26ead84c573563ddbf6ddcbb2f0b8b71ea03f0f37439",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/probe_input.h",
+      "sha256": "3fd1e8320c3def00552cf3f20c6bd86ef11229a75486018b91a48b1172bf416a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/probe_keyboard.m",
+      "sha256": "00a3ca927dc101b306e0b5908db24d86c401c4f9897b36e87fbacb10f541a6e2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/probe_services.c",
+      "sha256": "294b4f0657ec3bcbc676aaa377d2a2a0985d79411dd9043b058479cd03852871",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/probe_shaders.py",
+      "sha256": "70b8e9451a187fd17d156f7dc83687a833ada9e905d968d7bd6f3473a915262a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/probe_video.h",
+      "sha256": "935b810e37b44cb43194f7de5b83b5c76cb5b8aa098206744e9d550ebb165708",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/probe_window.m",
+      "sha256": "3000c9303168abf5cdd78461899ea844a5576bdf9a2e0f871d7072efbb358734",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/run_probe_game.sh",
+      "sha256": "e5f5cf5b847e69217f36eac7ca5a9598121afaf8912f5d0784faa7b8ededbc3a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/test_probe_controls.m",
+      "sha256": "a446f4a9efa48db151904ce5f35cb54143db15e0f6fef8b41ca05fdb04f7aa07",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/test_probe_geometry.py",
+      "sha256": "8182dcea580a3f1f3259558f9604536c61808f14aeadcfc32df6c177f23d5f1b",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/test_probe_keyboard.m",
+      "sha256": "cfdf90774feb98adc675d3aaeb58ae4f3b256aa7f1f4af55cd80ee9afbea7e01",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/video/LICENSE.libvpx.txt",
+      "sha256": "aa56ba9024f01edde9bfa5f5364644e6dd305874c3da8b73b92eb8af05539861",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/video/build.sh",
+      "sha256": "0923a909f21f52436fafbb647df1dcc1558845580dd89437ec93edf3d705c606",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/video/native_vp9.c",
+      "sha256": "54e203afdcaa9761ae1a996c976d5bee778c514a1c46b4bda4e934d6a902d0ec",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/video/omx/OMX_Audio.h",
+      "sha256": "4230302968983cac416672f8dcfa573dc22e605025d0e6f2bd11f4e49d4094e2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/video/omx/OMX_Component.h",
+      "sha256": "2cd8843b38a9cd178edaad68c9d0432c7229382dfc21850935d5012d829f0e7a",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/video/omx/OMX_Core.h",
+      "sha256": "1994653ae57bb98cde4296f4cb756f4d21942ac76d8c38758523b4119dd4442e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/video/omx/OMX_IVCommon.h",
+      "sha256": "efbc778d2e799929a076ea73d9bb184d037fcdef4947c8040f3197e10d2e6aad",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/video/omx/OMX_Image.h",
+      "sha256": "b19fc47dfc09dffa3c1b27787bde364622f8458f3c2377ff5d8172710fae82a6",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/video/omx/OMX_Index.h",
+      "sha256": "5b333f8f8f6a547c6c0f1c1256b9507d4df1c70a35bc9d89e2546156dd92e009",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/video/omx/OMX_Other.h",
+      "sha256": "d3c1cf0f18054e9b0d1950199ce5343589d8bc1e0eabb36dcb39b68e918a2b1a",
+      "modified_for_export": true,
+      "export_note": "Normalize CP1252 header comments to UTF-8; code unchanged"
+    },
+    {
+      "path": "dm/verify/video/omx/OMX_Types.h",
+      "sha256": "c7c62d742ba6042c28790d46856dd143245dcc559cb1e8921c9de2f09099bfb6",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/video/omx/OMX_Video.h",
+      "sha256": "bc3d298f99b228f4eb383cb6c8f9b589bbf52d912de860ea80117ce40f7c7f07",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/video/test_native_vp9.c",
+      "sha256": "2ea9202aebf8435b5f1a67b2a5e0d690dbe06e7935ecb4166f56437d7538957e",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/verify/video/test_probe_video.c",
+      "sha256": "27452001907998ec81e227586100d9705adf219cab86e48c539b057559726cd2",
+      "modified_for_export": false
+    },
+    {
+      "path": "dm/host/hle_fs.c",
+      "sha256": "b536254c368624a2fec6e40b50a50d61b23aa367d4edfa2f85382883edbe450d",
+      "modified_for_export": false
+    }
+  ],
+  "upstream_base": "15b837c1e433759d0a46df4d671da3d9c533b710"
+}
